@@ -1,0 +1,1635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7ceb770-fa19-4b50-bc32-1f502d2dece9" name="Default Changelist" comment="try commitA">
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/account/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/account/src/main/java/com/juju/AccountApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/account/src/main/java/com/juju/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/account/src/main/java/com/juju/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/account/src/main/java/com/juju/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/account/src/main/java/com/juju/repository/AdminRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/account/src/main/java/com/juju/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/account/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/account/src/main/resources/mapping/AdminRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/account/src/main/resources/mapping/UserRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/aispringclouddemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/entity/MenuVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/entity/OrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/entity/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/entity/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/feign/AccountFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/feign/MenuFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/feign/OrderFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/feign/UserFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/filter/AdminFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/java/com/juju/filter/UserFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/images/img.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/menu_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/menu_manage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/menu_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/order_handler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/user_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/client/src/main/resources/static/user_manage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/configserver/configserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/configserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/configserver/src/main/java/com/juju/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/configserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/configserver/src/main/resources/shared/account-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/configserver/src/main/resources/shared/client-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/configserver/src/main/resources/shared/menu-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/configserver/src/main/resources/shared/order-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/configserver/src/main/resources/shared/user-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/eurekaserver/eurekaserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/eurekaserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/eurekaserver/src/main/java/com/juju/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/eurekaserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/menu/menu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/menu/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/menu/src/main/java/com/juju/MenuApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/menu/src/main/java/com/juju/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/menu/src/main/java/com/juju/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/menu/src/main/java/com/juju/entity/MenuVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/menu/src/main/java/com/juju/entity/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/menu/src/main/java/com/juju/repository/MenuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/menu/src/main/java/com/juju/repository/TypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/menu/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/menu/src/main/resources/mapping/MenuRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/menu/src/main/resources/mapping/TypeRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/java/com/juju/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/java/com/juju/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/java/com/juju/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/java/com/juju/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/java/com/juju/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/java/com/juju/entity/OrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/java/com/juju/entity/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/java/com/juju/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/java/com/juju/repository/MenuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/java/com/juju/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/java/com/juju/repository/TypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/java/com/juju/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/resources/mapping/MenuRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/resources/mapping/OrderRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/resources/mapping/TypeRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/order/src/main/resources/mapping/UserRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/user/src/main/java/com/juju/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/user/src/main/java/com/juju/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/user/src/main/java/com/juju/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/user/src/main/java/com/juju/entity/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/user/src/main/java/com/juju/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/user/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aispringclouddemo/user/src/main/resources/mapping/UserRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-test/src/test/java/com/juju/redistest/JedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-parent/eureka-client-provider2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-parent/eureka-client-provider2/src/main/java/com/juju/Provider2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-parent/eureka-client-provider2/src/main/java/com/juju/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-parent/eureka-client-provider2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-parent/zuul/src/main/java/com/juju/filters/PreFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-parent/zuul/src/main/java/com/juju/filters/SecondFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-parent/zuul/src/main/java/com/juju/filters/ThirdFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testredis/src/test/java/com/juju/JedisDSOprTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testredis/src/test/java/com/juju/TestKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-admin" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-admin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-admin/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-admin/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-config" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-config/src/main/resources/bootstrap-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-config/src/main/resources/bootstrap-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-config/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-config/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-config/target/classes/bootstrap-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-config/target/classes/bootstrap-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-eureka" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-eureka" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-eureka/src/main/resources/bootstrap-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-eureka/src/main/resources/bootstrap-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-eureka/target/classes/bootstrap-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-eureka/target/classes/bootstrap-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-eureka/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-eureka/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-zipkin" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-zipkin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-zipkin/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-zipkin/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-zuul" beforeDir="false" afterPath="$PROJECT_DIR$/itoken-zuul" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-zuul/target/classes/META-INF/itoken-zuul.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-zuul/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itoken-zuul/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../juju-homepage-spring-cloud" beforeDir="false" afterPath="$PROJECT_DIR$/../juju-homepage-spring-cloud" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/itoken-dependencies/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-config/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-admin/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-config1/target/" />
+    <ignored path="$PROJECT_DIR$/a/target/" />
+    <ignored path="$PROJECT_DIR$/itoken-cfg/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-eureka-prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/itoken-eureka/src/main/resources/bootstrap-prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-eureka/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-config/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-dependencies/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="223" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-config/src/main/resources/bootstrap-prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-eureka-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-admin-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-eureka/src/main/java/com/juju/itoken/eureka/EurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/itoken-eureka" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/itoken-admin/README.md" />
+        <option value="$PROJECT_DIR$/itoken-dependencies/README.md" />
+        <option value="$PROJECT_DIR$/itoken-eureka/src/main/java/com/juju/itoken/eureka/EurekaApplication.java" />
+        <option value="$PROJECT_DIR$/itoken-zipkin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/itoken-admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/itoken-admin/src/main/java/com/juju/itoken/admin/AdminApplication.java" />
+        <option value="$PROJECT_DIR$/itoken-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/itoken-config/src/main/java/com/juju/itoken/config/CApplication.java" />
+        <option value="$PROJECT_DIR$/itoken-zuul/src/main/java/com/juju/itoken/zuul/A.java" />
+        <option value="$PROJECT_DIR$/itoken-config1/src/main/java/com/juju/itoken/aaa/A.java" />
+        <option value="$PROJECT_DIR$/a/pom.xml" />
+        <option value="$PROJECT_DIR$/a/src/main/java/com/A.java" />
+        <option value="$PROJECT_DIR$/itoken-zuul/src/main/java/com/juju/itoken/zuul/ZuulApplication.java" />
+        <option value="$PROJECT_DIR$/itoken-cfg/src/main/java/com/juju/A.java" />
+        <option value="$PROJECT_DIR$/itoken-cfg/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-cfg/src/main/java/com/juju/itoken/config/ConfigApplication.java" />
+        <option value="$PROJECT_DIR$/itoken-config/src/main/java/com/juju/itoken/config/A.java" />
+        <option value="$PROJECT_DIR$/itoken-zipkin/src/main/java/com/juju/itoken/zipkin/ZipKinApplication.java" />
+        <option value="$PROJECT_DIR$/itoken-config/respo/itoken-zuul-dev.yml" />
+        <option value="$PROJECT_DIR$/itoken-config/respo/itoken-zipkin-dev.yml" />
+        <option value="$PROJECT_DIR$/itoken-config/respo/itoken-admin-dev.yml" />
+        <option value="$PROJECT_DIR$/itoken-config/src/main/java/com/juju/itoken/config/ConfigApplication.java" />
+        <option value="$PROJECT_DIR$/itoken-config/src/main/resources/applicaiton-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-zuul/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-zipkin/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-admin/src/main/resources/application-prod.yml" />
+        <option value="$USER_HOME$/.m2/settings.xml" />
+        <option value="$PROJECT_DIR$/itoken-dependencies/profiles.xml" />
+        <option value="D:/maven/apache-maven-3.6.1/conf/settings.xml" />
+        <option value="$PROJECT_DIR$/itoken-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-config/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-eureka/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/itoken-eureka/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/itoken-eureka/target/classes/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/itoken-config/respo/itoken-eureka-dev.yml" />
+        <option value="$PROJECT_DIR$/itoken-config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/itoken-config/respo/itoken-eureka-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-config/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-eureka/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/itoken-eureka/src/main/resources/bootstrap-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-config/src/main/resources/bootstrap-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-config/src/main/resources/bootstrap.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itoken-config" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itoken-config" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itoken-config" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itoken-eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itoken-eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itoken-eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/itoken.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/itoken-dependencies/itoken-dependencies.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/itoken-admin/itoken-admin.iml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/itoken-dependencies/itoken-dependencies.iml" />
+        <option value="$PROJECT_DIR$/itoken-admin/itoken-admin.iml" />
+        <option value="$PROJECT_DIR$/itoken-config/itoken-config.iml" />
+        <option value="$PROJECT_DIR$/itoken-zipkin/itoken-zipkin.iml" />
+        <option value="$PROJECT_DIR$/itoken-eureka/itoken-eureka.iml" />
+        <option value="$PROJECT_DIR$/itoken-zuul/itoken-zuul.iml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_client_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_cloud_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_client_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_server_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_registry_prometheus_1_0_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_1_6_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_ipc_reactor_netty_0_7_8_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_8_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_common_0_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_core_1_4_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_servlet_1_4_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_websockets_jsr_1_4_25_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_5_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_context_log4j2_5_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_5_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpasyncclient_5_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpclient_5_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_clients_5_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_servlet_5_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_rabbit_5_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_web_5_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_webmvc_5_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_2_10_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_metrics_prometheus_2_10_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_ui_2_10_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_server_2_10_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_ui_2_10_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_7_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_7_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka11_2_7_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_10_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_9_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_collector_2_10_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_13.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_11_0_201803080745_r.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_4_11_0_201803080745_r.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_el_3_0_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_2_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_websocket_jboss_websocket_api_1_1_spec_1_1_3_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_3_8_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_3_8_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jolokia_jolokia_core_1_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_undertow_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_2_0_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_6_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
+        <option value="$PROJECT_DIR$/itoken-dependencies/itoken-dependencies.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="902" />
+    <option name="y" value="106" />
+    <option name="width" value="980" />
+    <option name="height" value="1090" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="itoken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/itoken-config/respo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\学习\java\ideaWorkplace\itoken\itoken-config\respo" />
+      <recent name="D:\学习\java\ideaWorkplace\itoken\itoken-config\src\main\resources" />
+      <recent name="D:\学习\java\ideaWorkplace\itoken\itoken-eureka\src\main\resources" />
+      <recent name="D:\学习\java\ideaWorkplace\itoken" />
+      <recent name="D:\学习\java\ideaWorkplace\itoken\itoken-config\src\main\java\com\juju\itoken\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\学习\java\ideaWorkplace\itoken\itoken-eureka\src\main\resources" />
+      <recent name="D:\学习\java\ideaWorkplace\itoken\itoken-config\src\main\resources" />
+      <recent name="D:\学习\java\ideaWorkplace\itoken\itoken-admin\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.18579236" />
+  </component>
+  <component name="RunManager" selected="JUnit.Whole project (1)">
+    <configuration name="ConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.juju.itoken.config.ConfigApplication" />
+      <module name="itoken-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juju.itoken.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in itoken-config" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itoken-config" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Whole project (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Whole project" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.juju.itoken.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="itoken-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juju.itoken.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.juju.itoken.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="itoken-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juju.itoken.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.juju.itoken.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itoken-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.juju.itoken.zuul.ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ConfigApplication" />
+      <item itemvalue="JUnit.Whole project" />
+      <item itemvalue="JUnit.All in itoken-config" />
+      <item itemvalue="JUnit.Whole project (1)" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.ConfigApplication" />
+        <item itemvalue="JUnit.Whole project (1)" />
+        <item itemvalue="Application.ConfigApplication" />
+        <item itemvalue="JUnit.All in itoken-config" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7ceb770-fa19-4b50-bc32-1f502d2dece9" name="Default Changelist" comment="" />
+      <created>1569516277782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569516277782</updated>
+      <workItem from="1569516280701" duration="297000" />
+      <workItem from="1569608270632" duration="437000" />
+      <workItem from="1569652284306" duration="10441000" />
+      <workItem from="1569680080630" duration="871000" />
+      <workItem from="1569681047740" duration="2884000" />
+      <workItem from="1569689335955" duration="4850000" />
+      <workItem from="1569734583667" duration="5870000" />
+      <workItem from="1569756871292" duration="2717000" />
+      <workItem from="1569759728043" duration="957000" />
+      <workItem from="1569760766294" duration="2977000" />
+      <workItem from="1569763823990" duration="5200000" />
+      <workItem from="1569778582192" duration="3035000" />
+      <workItem from="1569827789688" duration="3533000" />
+      <workItem from="1569860952230" duration="3054000" />
+      <workItem from="1569864394065" duration="624000" />
+      <workItem from="1569945663719" duration="1507000" />
+      <workItem from="1569985660440" duration="11633000" />
+      <workItem from="1570015885947" duration="1363000" />
+      <workItem from="1570114059958" duration="3722000" />
+      <workItem from="1570173238191" duration="1915000" />
+    </task>
+    <task id="LOCAL-00001" summary="try commit">
+      <created>1569516369335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569516369335</updated>
+    </task>
+    <task id="LOCAL-00002" summary="try commit">
+      <created>1569608328838</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569608328838</updated>
+    </task>
+    <task id="LOCAL-00003" summary="try commit">
+      <created>1569608405510</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569608405510</updated>
+    </task>
+    <task id="LOCAL-00004" summary="try commitA">
+      <created>1569608516270</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569608516270</updated>
+    </task>
+    <task id="LOCAL-00005" summary="try commitA">
+      <created>1569608537732</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569608537732</updated>
+    </task>
+    <task id="LOCAL-00006" summary="try commitA">
+      <created>1569608622164</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569608622164</updated>
+    </task>
+    <task id="LOCAL-00007" summary="try commitA">
+      <created>1569652448530</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569652448531</updated>
+    </task>
+    <task id="LOCAL-00008" summary="try commitA">
+      <created>1569653668010</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569653668010</updated>
+    </task>
+    <task id="LOCAL-00009" summary="try commitA">
+      <created>1569653768105</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569653768105</updated>
+    </task>
+    <task id="LOCAL-00010" summary="try commitA">
+      <created>1569657705620</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1569657705621</updated>
+    </task>
+    <task id="LOCAL-00011" summary="try commitA">
+      <created>1569664664554</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569664664554</updated>
+    </task>
+    <task id="LOCAL-00012" summary="try commitA">
+      <created>1569665087173</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1569665087173</updated>
+    </task>
+    <task id="LOCAL-00013" summary="try commitA">
+      <created>1569689483913</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1569689483913</updated>
+    </task>
+    <task id="LOCAL-00014" summary="try commitA">
+      <created>1569740440950</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1569740440950</updated>
+    </task>
+    <task id="LOCAL-00015" summary="try commitA">
+      <created>1569740671829</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1569740671829</updated>
+    </task>
+    <task id="LOCAL-00016" summary="try commitA">
+      <created>1569742624537</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1569742624537</updated>
+    </task>
+    <task id="LOCAL-00017" summary="try commitA">
+      <created>1569743024683</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1569743024683</updated>
+    </task>
+    <task id="LOCAL-00018" summary="try commitA">
+      <created>1569744293061</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1569744293061</updated>
+    </task>
+    <task id="LOCAL-00019" summary="try commitA">
+      <created>1569774618053</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1569774618053</updated>
+    </task>
+    <task id="LOCAL-00020" summary="try commitA">
+      <created>1569775227445</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1569775227445</updated>
+    </task>
+    <task id="LOCAL-00021" summary="try commitA">
+      <created>1569775517390</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1569775517390</updated>
+    </task>
+    <task id="LOCAL-00022" summary="try commitA">
+      <created>1569775686549</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1569775686549</updated>
+    </task>
+    <task id="LOCAL-00023" summary="try commitA">
+      <created>1569776013460</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1569776013460</updated>
+    </task>
+    <task id="LOCAL-00024" summary="try commitA">
+      <created>1569828191779</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1569828191779</updated>
+    </task>
+    <task id="LOCAL-00025" summary="try commitA">
+      <created>1569828605403</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1569828605403</updated>
+    </task>
+    <task id="LOCAL-00026" summary="try commitA">
+      <created>1569829331670</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1569829331670</updated>
+    </task>
+    <task id="LOCAL-00027" summary="try commitA">
+      <created>1569829666802</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1569829666802</updated>
+    </task>
+    <task id="LOCAL-00028" summary="try commitA">
+      <created>1569829974365</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1569829974365</updated>
+    </task>
+    <task id="LOCAL-00029" summary="try commitA">
+      <created>1569831890871</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1569831890871</updated>
+    </task>
+    <task id="LOCAL-00030" summary="try commitA">
+      <created>1569832156348</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1569832156348</updated>
+    </task>
+    <task id="LOCAL-00031" summary="try commitA">
+      <created>1569861305454</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1569861305456</updated>
+    </task>
+    <task id="LOCAL-00032" summary="try commitA">
+      <created>1569861858590</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1569861858590</updated>
+    </task>
+    <task id="LOCAL-00033" summary="try commitA">
+      <created>1569863429545</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1569863429545</updated>
+    </task>
+    <task id="LOCAL-00034" summary="try commitA">
+      <created>1569863843810</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1569863843810</updated>
+    </task>
+    <task id="LOCAL-00035" summary="try commitA">
+      <created>1570002218735</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1570002218735</updated>
+    </task>
+    <task id="LOCAL-00036" summary="try commitA">
+      <created>1570003080669</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1570003080669</updated>
+    </task>
+    <task id="LOCAL-00037" summary="try commitA">
+      <created>1570004798349</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1570004798349</updated>
+    </task>
+    <task id="LOCAL-00038" summary="try commitA">
+      <created>1570015582738</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1570015582738</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Whole_project_(1) - 2019.10.02 at 16h 26m 22s.xml">
+      <configuration name="Whole project (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="67887000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31032172" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.49932975" weight="0.56626505" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.40482575" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31367293" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50067025" side_tool="true" weight="0.58042896" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="aiXcoder" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.21447721" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31032172" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.49932975" visible="true" weight="0.56626505" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.40482575" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31367293" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50067025" side_tool="true" weight="0.58042896" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="aiXcoder" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.21447721" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="try commit" />
+    <MESSAGE value="try commitA" />
+    <option name="LAST_COMMIT_MESSAGE" value="try commitA" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/itoken-admin/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-dependencies/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-zuul/src/main/java/com/juju/itoken/zuul/A.java" />
+    <entry file="file://$PROJECT_DIR$/itoken-config/src/main/java/com/juju/itoken/config/CApplication.java" />
+    <entry file="file://$PROJECT_DIR$/itoken-config1/src/main/java/com/juju/itoken/aaa/B.java" />
+    <entry file="file://$PROJECT_DIR$/itoken-config/src/main/java/com/juju/itoken/aaa/A.java" />
+    <entry file="file://$PROJECT_DIR$/a/src/main/java/com/A.java" />
+    <entry file="file://$PROJECT_DIR$/a/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/itoken-cfg/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/itoken-cfg/src/main/java/com/juju/A.java" />
+    <entry file="file://$PROJECT_DIR$/itoken-cfg/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/itoken-cfg/src/main/java/com/juju/itoken/config/ConfigApplication.java" />
+    <entry file="file://$PROJECT_DIR$/itoken-zipkin/src/main/java/com/juju/itoken/zipkin/ZipKinApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.2/eureka-client-1.9.2.jar!/com/netflix/discovery/shared/transport/decorator/EurekaHttpClientDecorator.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-zuul/src/main/java/com/juju/itoken/zuul/ZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config/itoken-config.iml" />
+    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-zuul-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-zipkin-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-admin/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-zipkin/src/main/resources/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config/src/main/resources/applicaiton-prod.yml" />
+    <entry file="file://$PROJECT_DIR$/itoken-zuul/src/main/resources/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-admin/src/main/resources/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-dependencies/profiles.xml" />
+    <entry file="file://$PROJECT_DIR$/itoken-zuul/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-zipkin/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-dependencies/itoken-dependencies.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/maven/apache-maven-3.6.1/conf/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="141" column="14" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-eureka/src/main/resources/application-prod.yml" />
+    <entry file="file://$PROJECT_DIR$/itoken-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1586">
+          <caret line="61" column="71" selection-start-line="61" selection-start-column="71" selection-end-line="61" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config/src/main/java/com/juju/itoken/config/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-eureka/target/classes/bootstrap.yml" />
+    <entry file="file://$PROJECT_DIR$/itoken-admin/src/main/java/com/juju/itoken/admin/AdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-eureka/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-dependencies/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="223" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-eureka-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-eureka/src/main/java/com/juju/itoken/eureka/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-admin-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config/respo/itoken-eureka-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config/src/main/resources/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-config/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-eureka/src/main/resources/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>itoken-eureka</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>
